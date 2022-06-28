@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from byrushan.com/projects/material-admin/app/2.6/top-navigation.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2019 11:35:00 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- icon files -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="vendors/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendors/animate.css/animate.min.css">
+
+
+
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" href="vendors/slick/slick.css" />
+    <link rel="stylesheet" href="vendors/slick/slick-theme.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="css/app.min.css">
+
+    <link rel="stylesheet" href="css/landing-page.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/landing-assets/css/input100.css">
+
+
+    <style>
+        .main-landing-content {
+            height: 100vh;
+            background-image: url(demo/img/landing-pg-img.jpg);
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        
+        .main-landing-content::before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            /* background-color: red; */
+            content: "";
+            top: 0;
+            left: 0;
+            background-image: linear-gradient(to right, white, #00000057);
+        }
+        
+        .main-landing-content::after {
+            position: absolute;
+            /* background-color: red; */
+            content: "";
+            top: 2.5rem;
+            right: 2.5rem;
+            height: 10rem;
+            width: 10rem;
+            border-top: 0.5rem solid yellow;
+            border-right: 0.5rem solid yellow;
+            border-color: #00000057;
+        }
+        
+        .landing-logo {
+            height: 120px;
+            display: flex;
+            justify-content: start;
+            align-items: flex-start;
+        }
+        
+        .landing-logo img {
+            height: 150px;
+            width: 150px;
+        }
+        
+        .landing-text {
+            padding-left: 2.5rem;
+            border-left: 1px solid #80808029;
+        }
+        
+        .font-12 {
+            font-size: 11px !important;
+        }
+        
+        .bg-frost {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 5px;
+            color: #333;
+            line-height: 1.5;
+            max-width: 50%;
+            padding: 1rem 2rem;
+        }
+        
+        @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+            .bg-frost {
+                -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+                background-color: rgb(255 255 255 / 38%);
+            }
+            .warning {
+                display: none;
+            }
+        }
+        
+        .the-main-main-logo {
+            padding-right: 30px;
+        }
+    </style>
+
+
+</head>
+
+<body data-ma-theme="green">
+    <div class="main-landing-content wow zoomInUp">
+        <div class="container-fluid pl-5">
+            <div class="row pl-5">
+                <div class=" col-md-10 col-lg-9 bg-frost wow slideInUp" data-wow-duration="300ms" data-wow-delay="700ms">
+                    <div class="d-flex py-4">
+                        <img src="demo/img/logo-files/court-logo.svg" alt="" class="img landing-logo wow slideInUp" data-wow-duration="300ms" data-wow-delay="800ms">
+                        <div class="d-flex img the-main-main-logo">
+
+                        </div>
+                        <div class="landing-text">
+                            <h2 class="font-weight-bolder wow slideInUp" data-wow-duration="300ms" data-wow-delay="600ms">Ministry of lands And Physical Planning</h2>
+                            <p class="font-12 wow slideInUp mb-5" data-wow-duration="300ms" data-wow-delay="600ms">
+                                The Ministry of Lands and Physical Planning is a central player in Kenya’s socio-economic development plan. Land is one of the key enablers of the ‘Big 4 Agenda’ and the Vision 2030. Land is acknowledged as a key determinant of social, economic and political
+                                transformation.
+                            </p>
+                            <div class="row mb-5">
+                                <div class="col-6 wow slideInUp" data-wow-duration="300ms" data-wow-delay="800ms">
+                                    <div>
+
+                                    </div>
+                                    <div>
+                                        <strong class="text-uppercase">Our Mission</strong>
+                                        <p class="font-12">To facilitate improvement of the livelihood of Kenyans through efficient land administration, equitable access, secure tenure and sustainable management of land resource</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 wow slideInUp" data-wow-duration="500ms" data-wow-delay="900ms">
+                                    <strong>
+                                        OUR VISION</strong>
+                                    <p class="font-12">To be a globally competitive organization in sustainable land management</p>
+                                </div>
+                            </div>
+                            <a class="btn btn-primary btn-auto w-auto wow slideInUp" data-wow-duration="400ms" data-wow-delay="900ms">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+<!-- Mirrored from byrushan.com/projects/material-admin/app/2.6/top-navigation.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jul 2019 11:35:00 GMT -->
+
+</html>
